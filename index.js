@@ -10,3 +10,10 @@ function incrementCount() {
     countEl.innerText = passengerCount;
     console.log(passengerCount)
 }
+
+function save() {
+    console.log(passengerCount);
+}
+
+save()
+ 
