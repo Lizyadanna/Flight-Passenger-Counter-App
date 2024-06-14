@@ -6,14 +6,19 @@ console.log(countEl)
 let passengerCount = 0;
 
 function incrementCount() {
-    passengerCount = passengerCount + 1
+    passengerCount += 1
     countEl.innerText = passengerCount;
     console.log(passengerCount)
 }
 
+let saveEl = document.getElementById("save-el")
+
+console.log(saveEl)
+
 function save() {
-    console.log(passengerCount);
+    let saveCount = passengerCount + ' -  '
+    saveEl.innerText += saveCount
+    console.log(saveCount);
 }
 
-save()
- 
+
