@@ -19,6 +19,8 @@ function save() {
     let saveCount = passengerCount + ' -  '
     saveEl.innerText += saveCount
     console.log(saveCount);
+    countEl.innerText = 0
+    count = 0
 }
 
 
